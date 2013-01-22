@@ -1,0 +1,15 @@
+
+# Language/versions
+language: node_js
+node_js:
+ - 0.9
+ - 0.8
+ - 0.6
+
+# Build script
+script: 'make'
+
+# Notifications
+notifications:
+ email:
+   - notify+express-ctrl@rowanmanning.co.uk
