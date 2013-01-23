@@ -1,5 +1,9 @@
 
-all: lint test
+all: deps lint test
+
+deps:
+	@echo "Installing dependencies..."
+	@npm install
 
 lint:
 	@echo "Linting JavaScript..."
@@ -20,4 +24,5 @@ test-unit:
 test-feature:
 	@echo "Running features..."
 	@./node_modules/.bin/cucumber-js \
+		--format pretty \
 		./test/feature
