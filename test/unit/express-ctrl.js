@@ -211,7 +211,7 @@ describe('express-ctrl', function () {
             });
 
             it('should require the expected controller', function () {
-                assert.isTrue(ctrl.requireController.withArgs('.', 'foo').calledOnce);
+                assert.isTrue(ctrl.requireController.withArgs('./controllers', 'foo').calledOnce);
             });
 
             it('should add the required controller to the application', function () {

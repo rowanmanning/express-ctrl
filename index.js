@@ -3,14 +3,14 @@
 var ctrl = exports;
 
 // Dependencies
-var join = require('path').join;
+var resolvePath = require('path').resolve;
 
 
 // Public
 
 // Load a controller
 ctrl.requireController = function (dir, name) {
-    var path = join(dir, name);
+    var path = resolvePath(dir, name);
     try {
         return require(path);
     } catch (err) {
@@ -47,7 +47,7 @@ ctrl.createLoader = function (app, opts) {
 // Add default values to createLoader options
 ctrl.createLoader.defaultOpts = function (opts) {
     if (typeof opts !== 'object') { opts = {}; }
-    if (typeof opts.path !== 'string') { opts.path = '.'; }
+    if (typeof opts.path !== 'string') { opts.path = './controllers'; }
     return opts;
 };
 
