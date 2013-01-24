@@ -1,6 +1,6 @@
 {
     "name": "express-ctrl",
-    "version": "0.0.0",
+    "version": "0.1.0",
 
     "description": "A light wrapper, providing a controller-like interface to Express routing",
     "keywords": [ "controller", "express", "mvc", "routing" ],
