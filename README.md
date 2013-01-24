@@ -2,7 +2,7 @@
 Express Ctrl
 ============
 
-Express Ctrl is a light wrapper, providing a controller-like interface to Express routing.
+Express Ctrl is a light wrapper, providing a controller-like interface to [Express (3.0)][express] routing.
 
 **Current Version:** *0.0.0*  
 **Automated Build Status:** [![Build Status][travis-status]][travis]  
@@ -159,6 +159,7 @@ Express Ctrl is licensed under the [MIT][mit] license.
 
 
 
+[express]: http://expressjs.com/
 [mit]: http://opensource.org/licenses/mit-license.php
 [node]: http://nodejs.org/
 [test-app]: https://github.com/rowanmanning/express-ctrl/tree/master/test/fixture/app
