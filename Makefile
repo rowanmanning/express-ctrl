@@ -9,7 +9,8 @@ lint:
 	@echo "Linting JavaScript..."
 	@./node_modules/.bin/jshint \
 		--config ./test/config/jshint.json \
-		./{index.js,test/*}
+		index.js \
+		./test/*
 
 test: test-unit test-feature
 
