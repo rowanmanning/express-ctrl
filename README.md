@@ -162,6 +162,6 @@ Express Ctrl is licensed under the [MIT][mit] license.
 [mit]: http://opensource.org/licenses/mit-license.php
 [node]: http://nodejs.org/
 [test-app]: https://github.com/rowanmanning/express-ctrl/tree/master/test/fixture/app
-[travis]: https://secure.travis-ci.org/rowanmanning/express-ctrl
-[travis-status]: https://secure.travis-ci.org/rowanmanning/express-ctrl.png?branch=master
+[travis]: https://travis-ci.org/rowanmanning/express-ctrl
+[travis-status]: https://travis-ci.org/rowanmanning/express-ctrl.png?branch=master
 
