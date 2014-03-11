@@ -4,6 +4,8 @@ Express Ctrl
 
 Express Ctrl is a light wrapper, providing a controller-like interface to [Express (3.0)][express] routing.
 
+**NOTE: This project is no longer being maintained. If you're interested in taking over maintenance of this repo, please contact me.**
+
 **Current Version:** *0.1.0*  
 **Automated Build Status:** [![Build Status][travis-status]][travis]  
 **Node Version Support:** *0.6, 0.8*
